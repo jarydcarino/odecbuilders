@@ -18,7 +18,7 @@ if(isset($_SESSION['type'])){
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
-    <TITLE>HOME | OLOL</TITLE>
+    <TITLE>HOME | ODEC</TITLE>
     <?php include_once "includes/script.php"; ?>
 </head>
 
