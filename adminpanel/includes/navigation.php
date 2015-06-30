@@ -158,7 +158,7 @@
                                 ?>
                             </ul>
                         </li>
-                        <li class="treeview">
+<!--                         <li class="treeview">
                             <a href="#">
                                 <span class="glyphicon glyphicon-book"></span>
                                 <span>Tutorials</span>
@@ -170,8 +170,8 @@
                                 <li><a href="assignStudents.php"><i class="fa fa-angle-double-right"></i> Assign Students</a></li>
                                 <!--<li><a href="pages/charts/flot.html"><i class="fa fa-angle-double-right"></i> Flot</a></li>
                                 <li><a href="pages/charts/inline.html"><i class="fa fa-angle-double-right"></i> Inline charts</a></li>-->
-                            </ul>
-                        </li>
+<!--                             </ul>
+                        </li>  -->
                         <li class="treeview">
                             <a href="#">
                                 <i class="fa fa-users"></i>
@@ -193,9 +193,9 @@
                             </a>
                             <ul class="treeview-menu">
                                 <li><a href="draftsmanReport.php"><i class="fa fa-angle-double-right"></i> Draftsman Report</a></li>
-                                <li><a href="tutorReport.php"><i class="fa fa-angle-double-right"></i> Tutor Report</a></li>
+                               <!--  <li><a href="tutorReport.php"><i class="fa fa-angle-double-right"></i> Tutor Report</a></li> -->
                                 <li><a href="projectReport.php?type=all"><i class="fa fa-angle-double-right"></i> Project Report</a></li>
-                                <li><a href="classReport.php?type=all"><i class="fa fa-angle-double-right"></i> Class Report</a></li>
+                               <!--  <li><a href="classReport.php?type=all"><i class="fa fa-angle-double-right"></i> Class Report</a></li> -->
                                 <!--<li><a href="pages/UI/buttons.html"><i class="fa fa-angle-double-right"></i> Buttons</a></li>
                                 <li><a href="pages/UI/sliders.html"><i class="fa fa-angle-double-right"></i> Sliders</a></li>
                                 <li><a href="pages/UI/timeline.html"><i class="fa fa-angle-double-right"></i> Timeline</a></li>-->

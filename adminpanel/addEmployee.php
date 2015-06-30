@@ -88,8 +88,8 @@
                                             Draftsman &nbsp;&nbsp;
                                             <input type="radio" name="type" value="Tutorial" <?php if(isset($_POST['type']) == 'Tutorial')  echo ' checked="checked"';?> required>
                                             Tutor &nbsp;&nbsp;
-                                            <input type="radio" name="type" value="Draftsman/Tutor" <?php if(isset($_POST['type']) == 'Draftsman/Tutor')  echo ' checked="checked"';?> required>
-                                            Draftsman/Tutor
+                                            <input type="radio" name="type" value="Admin" <?php if(isset($_POST['type']) == 'Admin')  echo ' checked="checked"';?> required>
+                                            Administrator
                                         </div>
                                     <i class="fa fa-pencil"></i><b> Skills</b></label><br>
                                                                 

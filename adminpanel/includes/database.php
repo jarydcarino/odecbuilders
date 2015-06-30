@@ -1981,7 +1981,7 @@ function subDraftsman(){
 						FROM employee e
 						JOIN account a ON e.employeeID = a.empID
 						JOIN skillemp se ON se.empID = e.employeeID
-						JOIN skills s ON s.skillID = se.skillID WHERE a.type != 'admin' GROUP BY `empname` ORDER BY `empname` ASC) as `tibolnim`
+						JOIN skills s ON s.skillID = se.skillID GROUP BY `empname` ORDER BY `empname` ASC) as `tibolnim`
 				");
 				$query -> setFetchMode(PDO::FETCH_ASSOC);
 				while($row = $query->fetch()) {
@@ -1991,8 +1991,11 @@ function subDraftsman(){
 
 					echo '<td style="width:50px;"><img src="'.$row['picture'].'" class="img-square aaa" alt="User Image" /></td>';
 					echo '<td><b>'.$row['empname'].'</b></td>';
-
-					echo '<td><i>'.$row['type'].'</i></td>';
+					if($row['type'] == 'Admin'){
+						echo '<td><i>Administrator</i></td>';
+					}else{
+						echo '<td><i>'.$row['type'].'</i></td>';
+					}
 					echo '<td>'.$row['sname'].'</td>';
 
 					$query2 = $dbh -> query("SELECT * FROM project WHERE draftsmanID = '$empID'");
